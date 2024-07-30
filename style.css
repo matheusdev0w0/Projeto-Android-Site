@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+/*
+ Paleta de Cores
+Mais claro a o mais forte
+  #c5ebd6
+  #83e1ad
+  #3ddc84 
+  #2fa866 
+  #1a5c37
+  #063d1e
+*/
+
+/* --- Variaveis --- */
+:root {
+    --cor0:#c5ebd6;
+    --cor1:#83e1ad;
+    --cor2:#3ddc84;
+    --cor3:#2fa866;
+    --cor4:#1a5c37;
+    --cor5:#063d1e;
+    --fonte-padrao: arial,verdana,helvetica,sans-serif;
+    --fonte-destaque:'Bebas Neue', sans-serif;
+    --fonte-android: 'android';
+}
+
+/* --- medidas globais --- */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: radial-gradient(circle at 74.18% -16.45%, #ffffe0 0, #feffdc 8.33%, #f3ffd7 16.67%, #e6ffd3 25%, #d8fbcf 33.33%, #c7f7cc 41.67%, #b5f2c9 50%, #a1edc8);
+    font-family: var(--fonte-padrao);
+}
+
+/* --- continuação --- */
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5) );
+    min-height: 150px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0px 8px 20px 0px black;
+}
+header > h1 {
+ color: #ffff;
+ font-family: var(--fonte-destaque);
+ font-size: 3em;
+ text-shadow: 0px 1px 20px black;
+ font-weight: normal;
+
+}
+header > p {
+    color: white;
+    margin-top: 20px;
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    text-shadow: 0px 1px 20px black;
+    border-radius: 30%;
+}
+nav {
+    background-color: #81d3a7;
+    padding : 0;
+    box-shadow: -1px 5px 11px 0px #000000bd;
+    margin: 10px auto ;
+    max-width: 397px;
+    border-radius: 50px;
+    height: 45px;
+}
+
+
+nav > a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 12px;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+}
+
+nav a:first-child{
+    margin-left: 25px;
+}
+
+nav a:first-child:hover {
+    margin: 0;
+    padding: 13.6px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+nav a:last-child{
+    margin-right: 15px;
+}
+
+nav a:last-child:hover {
+    margin: 0;
+    padding: 14.5px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+nav > a:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    transition-duration: 0.2s;
+    padding: 14px 12px;
+    margin: 0;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow:  0px 0px 20px 5px rgb(100, 100, 100);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+main  h1 {
+    color: var(--cor5);
+    font-family: var(--fonte-android);
+}
+main  h2 {
+    font-family: var(--fonte-android);
+    font-size: 1.3em;
+    color: var(--cor4);
+    background-image: linear-gradient(to right, var(--cor1),transparent);
+    text-indent: 20px;
+    border-radius: 20px;
+    
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 1.7em;
+}
+main strong {
+    font-weight: bold;
+    color: #1a5c37;
+    background-color: #a4e7b8;
+    border-radius: 30%;
+    padding: 3px;
+}
+main a {
+    text-decoration: none;
+    font-weight: bold;
+}
+main a:hover {
+    text-decoration: underline;
+
+}
+main img {
+    width: 100%;
+}
+div.video{
+    background-color: #1a5c37;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 59%;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+aside {
+    padding: 10px;
+    text-decoration: none;
+    background-color: var(--cor0);
+    border-radius: 10px;
+}
+aside > ul {
+    list-style: '\1F5F8';
+    list-style-position: inside;
+    columns: 2;
+}
+  
+aside > h3 {
+    background-color: var(--cor4);
+    color: #ffff;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+footer {
+    height: 100px;
+    background-color: var(--cor0);
+    box-shadow: -3px 2px 6px black;
+    text-align: center;
+} 
+#Social-midia {
+    margin-top: 20px;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+}
