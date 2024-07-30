@@ -68,12 +68,11 @@ header > p {
 }
 nav {
     background-color: #81d3a7;
-    padding : 0;
+    margin-bottom: 2px;
+    padding: 0px;
     box-shadow: -1px 5px 11px 0px #000000bd;
-    margin: 10px auto ;
-    max-width: 397px;
-    border-radius: 50px;
     height: 45px;
+    max-width: 390px;    
 }
 
 
@@ -85,30 +84,7 @@ nav > a {
     float: left;
     position: relative;
     box-sizing: border-box;
-}
-
-nav a:first-child{
-    margin-left: 25px;
-}
-
-nav a:first-child:hover {
-    margin: 0;
-    padding: 13.6px;
-    box-sizing: border-box;
-    border-bottom-left-radius: 50px;
-    border-top-left-radius: 50px;
-}
-
-nav a:last-child{
-    margin-right: 15px;
-}
-
-nav a:last-child:hover {
-    margin: 0;
-    padding: 14.5px;
-    box-sizing: border-box;
-    border-bottom-right-radius: 50px;
-    border-top-right-radius: 50px;
+    font-size: 14px;
 }
 
 nav > a:hover {
