@@ -68,13 +68,11 @@ header > p {
 }
 nav {
     background-color: #81d3a7;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
     padding: 0px;
     box-shadow: -1px 5px 11px 0px #000000bd;
     height: 45px;
-    max-width: 340.4px;   
-    border-radius: 25px; 
-    margin-left: 5px;
+    max-width: 340.10px;   
 }
 
 nav > a {
@@ -82,6 +80,7 @@ nav > a {
     text-decoration: none;
     margin: 10px;
     margin-top: 12px;
+    margin-left: 10px;
     float: left;
     position: relative;
     box-sizing: border-box;
@@ -96,16 +95,6 @@ nav > a:hover {
     margin: 0;
 }
 
-nav a:first-child {
-    border-top-left-radius: 22px;
-    border-bottom-left-radius: 20px;
-
-}
-nav a:last-child {
-    border-top-right-radius: 22px;
-    border-bottom-right-radius: 20px;
-
-}
 main {
     background-color: white;
     min-width: 300px;
@@ -196,7 +185,7 @@ main img.pequena {
     margin: auto;
 }
 footer {
-    height: 100px;
+    height: 120px;
     background-color: var(--cor0);
     box-shadow: -3px 2px 6px black;
     text-align: center;
@@ -204,6 +193,9 @@ footer {
 #Social-midia {
     margin-top: 20px;
     letter-spacing: 1.5px;
-    font-size: 20px;
+    font-size: 18px;
+    color: black;
+}
+footer a:visited {
     color: black;
 }
