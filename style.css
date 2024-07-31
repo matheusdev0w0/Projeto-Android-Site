@@ -66,6 +66,7 @@ header > p {
     text-shadow: 0px 1px 20px black;
     border-radius: 30%;
 }
+/*roda pé-nav*/
 nav {
     background-color: #81d3a7;
     margin-bottom: 0px;
@@ -94,7 +95,7 @@ nav > a:hover {
     padding: 14px 12px;
     margin: 0;
 }
-
+/*main configs*/
 main {
     background-color: white;
     min-width: 300px;
@@ -143,6 +144,7 @@ main a:hover {
 main img {
     width: 100%;
 }
+/*IFRAME vídeo responsivo*/
 div.video{
     background-color: #1a5c37;
     margin: 0px -20px 30px -20px;
@@ -158,7 +160,7 @@ div.video > iframe {
     height: 90%;
 
 }
-
+/* aside e a lista*/
 aside {
     padding: 10px;
     text-decoration: none;
@@ -166,7 +168,7 @@ aside {
     border-radius: 10px;
 }
 aside > ul {
-    list-style: '\1F5F8';
+    list-style: '\1F5F8' '🗸';
     list-style-position: inside;
     columns: 2;
 }
