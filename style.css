@@ -40,7 +40,7 @@ body {
     font-family: var(--fonte-padrao);
 }
 
-/* --- continuação --- */
+/* --- continuação do código --- */
 
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5) );
@@ -205,4 +205,5 @@ footer {
     margin-top: 20px;
     letter-spacing: 1.5px;
     font-size: 20px;
+    color: black;
 }
