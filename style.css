@@ -66,14 +66,27 @@ header > p {
     text-shadow: 0px 1px 20px black;
     border-radius: 30%;
 }
+#burguer {
+    margin-top: 50px;
+    color: #c7f7cc;
+    margin-right: 90%;
+    padding: 15px;
+}
+#burguer:hover {
+    transition: all 0.1s;
+    background-color: #2fa866;
+    border-radius: 15px;
+    padding: 16px;
+}
 /*roda pé-nav*/
 nav {
+    position: absolute;
     background-color: #81d3a7;
+    margin-left: 5px;
     margin-bottom: 0px;
-    padding: 0px;
+    padding: 10px;
     box-shadow: -1px 5px 11px 0px #000000bd;
-    height: 45px;
-    max-width: 340.10px;   
+    width: 120px;
 }
 
 nav > a {
@@ -92,7 +105,8 @@ nav > a:hover {
     background-color: var(--cor3);
     color: var(--cor4);
     transition-duration: 0.4s;
-    padding: 14px 12px;
+    padding: 15px;
+    border-radius: 20px;
     margin: 0;
 }
 /*main configs*/

@@ -1,0 +1,33 @@
+nav {
+    position: relative;
+    background-color: #81d3a7;
+    margin-left: 20px;
+    margin-bottom: 1px;
+    padding: 0px;
+    box-shadow: -1px 5px 11px 0px #000000bd;
+    height: 45px;
+    width: 348px;
+}
+
+nav > a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 10px;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+nav > a:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    transition-duration: 0.4s;
+    padding: 14px 12px 16.5px;
+    margin: 0;
+}
+#burguer {
+    display: none;
+}
